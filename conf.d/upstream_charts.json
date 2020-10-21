@@ -1,0 +1,5 @@
+[{
+	"repository": "olli-ai/k8s-replicator",
+	"chartPath": "deploy/helm-chart/k8s-replicator",
+	"chartName": "k8s-replicator"
+}]
