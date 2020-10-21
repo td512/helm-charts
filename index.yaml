@@ -3,12 +3,12 @@ entries:
   k8s-replicator:
   - apiVersion: v1
     appVersion: v0.0.0
-    created: "2020-10-21T09:00:43.703249815Z"
+    created: "2020-10-21T09:28:24.954970696Z"
     description: Controller for replicating secrets and configmaps across namespaces,
       and help with randomly generated password deployed with helm
-    digest: 3d8333ad02c0ee4b3475402cb5da763a98ecc65a8448213970dd03b70a643f4b
+    digest: 62f4d7683d6ab65da4a4cc8aa44b5cfcea5bda4ab94a987286d26a8cae455da3
     name: k8s-replicator
     urls:
     - https://olli-ai.github.io/helm-charts/k8s-replicator-0.0.0.tgz
     version: 0.0.0
-generated: "2020-10-21T09:00:43.701860205Z"
+generated: "2020-10-21T09:28:24.954149092Z"
