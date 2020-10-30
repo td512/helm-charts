@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   k8s-replicator:
   - apiVersion: v1
+    appVersion: v0.0.12
+    created: "2020-10-30T09:21:14.182699136Z"
+    description: Controller for replicating secrets and configmaps across namespaces,
+      and help with randomly generated password deployed with helm
+    digest: 9d1abaafaa0559298ad2e2ce2ab1d12415e14166f5f930a053e9867fc2b5ad3f
+    name: k8s-replicator
+    urls:
+    - https://olli-ai.github.io/helm-charts/k8s-replicator-0.0.12.tgz
+    version: 0.0.12
+  - apiVersion: v1
     appVersion: v0.0.10
-    created: "2020-10-29T10:12:42.872948369Z"
+    created: "2020-10-30T09:21:14.182387136Z"
     description: Controller for replicating secrets and configmaps across namespaces,
       and help with randomly generated password deployed with helm
     digest: a965b10315e959a6461f595cd1dc899fb5f5939d7588c03cb486a55aac96216b
@@ -13,7 +23,7 @@ entries:
     version: 0.0.10
   - apiVersion: v1
     appVersion: v0.0.9
-    created: "2020-10-29T10:12:42.875738189Z"
+    created: "2020-10-30T09:21:14.184829537Z"
     description: Controller for replicating secrets and configmaps across namespaces,
       and help with randomly generated password deployed with helm
     digest: a99f18b2a497ac7a61f7be3734e79649a7b3ea53ec216c6b26d6b8e79b549030
@@ -23,7 +33,7 @@ entries:
     version: 0.0.9
   - apiVersion: v1
     appVersion: v0.0.8
-    created: "2020-10-29T10:12:42.875347986Z"
+    created: "2020-10-30T09:21:14.184556137Z"
     description: Controller for replicating secrets and configmaps across namespaces,
       and help with randomly generated password deployed with helm
     digest: c4d0b271b493afe01b6044cbe0306267ef917c8d19531c88a10b4d01a3b28601
@@ -33,7 +43,7 @@ entries:
     version: 0.0.8
   - apiVersion: v1
     appVersion: v0.0.7
-    created: "2020-10-29T10:12:42.874977684Z"
+    created: "2020-10-30T09:21:14.184280237Z"
     description: Controller for replicating secrets and configmaps across namespaces,
       and help with randomly generated password deployed with helm
     digest: fb3c879c20d5d6e0a7c05fb9ebcf079bc8a83b7fa04cadf5df98b8a3d4449155
@@ -43,7 +53,7 @@ entries:
     version: 0.0.7
   - apiVersion: v1
     appVersion: v0.0.6
-    created: "2020-10-29T10:12:42.874650081Z"
+    created: "2020-10-30T09:21:14.183961737Z"
     description: Controller for replicating secrets and configmaps across namespaces,
       and help with randomly generated password deployed with helm
     digest: 446a1d103eac67d8e847e13f590441a910a3ba848b43a7a333b57ad5a58ab383
@@ -53,7 +63,7 @@ entries:
     version: 0.0.6
   - apiVersion: v1
     appVersion: v0.0.5
-    created: "2020-10-29T10:12:42.874325879Z"
+    created: "2020-10-30T09:21:14.183707237Z"
     description: Controller for replicating secrets and configmaps across namespaces,
       and help with randomly generated password deployed with helm
     digest: 246e58a1162fb5ea43b058c6968231061673e4f62d652ac4985aa9aed0820c10
@@ -63,7 +73,7 @@ entries:
     version: 0.0.5
   - apiVersion: v1
     appVersion: v0.0.3
-    created: "2020-10-29T10:12:42.873891976Z"
+    created: "2020-10-30T09:21:14.183451537Z"
     description: Controller for replicating secrets and configmaps across namespaces,
       and help with randomly generated password deployed with helm
     digest: b5980c6446b3c878408a541738cd8131e032b1760c79bfb46be2c7d84ec65ef5
@@ -73,7 +83,7 @@ entries:
     version: 0.0.3
   - apiVersion: v1
     appVersion: v0.0.2
-    created: "2020-10-29T10:12:42.873545673Z"
+    created: "2020-10-30T09:21:14.182993137Z"
     description: Controller for replicating secrets and configmaps across namespaces,
       and help with randomly generated password deployed with helm
     digest: d1debd2c9540336ea366d435dca93cff080d993e11cef6532e92be295f3374ad
@@ -83,7 +93,7 @@ entries:
     version: 0.0.2
   - apiVersion: v1
     appVersion: v0.0.1
-    created: "2020-10-29T10:12:42.872333564Z"
+    created: "2020-10-30T09:21:14.181984336Z"
     description: Controller for replicating secrets and configmaps across namespaces,
       and help with randomly generated password deployed with helm
     digest: a4d5592b58df60bc5e00452023182abd43864a40263637c08c5a1703672484bc
@@ -93,7 +103,7 @@ entries:
     version: 0.0.1
   - apiVersion: v1
     appVersion: v0.0.0
-    created: "2020-10-29T10:12:42.871999762Z"
+    created: "2020-10-30T09:21:14.181573436Z"
     description: Controller for replicating secrets and configmaps across namespaces,
       and help with randomly generated password deployed with helm
     digest: e755b35a93b2a5342c0ade7e1cb2a46284ec82dc2c927090c3134b0c3e5aa872
@@ -101,4 +111,4 @@ entries:
     urls:
     - https://olli-ai.github.io/helm-charts/k8s-replicator-0.0.0.tgz
     version: 0.0.0
-generated: "2020-10-29T10:12:42.871486258Z"
+generated: "2020-10-30T09:21:14.180535636Z"
