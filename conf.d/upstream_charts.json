@@ -2,4 +2,8 @@
 	"repository": "olli-ai/k8s-replicator",
 	"chartPath": "deploy/helm-chart/k8s-replicator",
 	"chartName": "k8s-replicator"
+}, {
+	"repository": "olli-ai/exposecontroller",
+	"chartPath": "deploy/helm-chart/exposecontroller",
+	"chartName": "exposecontroller"
 }]
