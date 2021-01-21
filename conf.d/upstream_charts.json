@@ -6,4 +6,8 @@
 	"repository": "olli-ai/exposecontroller",
 	"chartPath": "deploy/helm-chart/exposecontroller",
 	"chartName": "exposecontroller"
+}, {
+	"repository": "olli-ai/glusterfs-subdir-external-provisioner",
+	"chartPath": "deploy/helm-chart/glusterfs-client-provisioner",
+	"chartName": "glusterfs-client-provisioner"
 }]
