@@ -3,16 +3,16 @@ entries:
   exposecontroller:
   - apiVersion: v1
     appVersion: v1.0.2
-    created: "2021-01-25T10:59:56.560214801Z"
+    created: "2021-01-26T10:27:58.00337218Z"
     description: Controller for automatically exposing services
-    digest: 1dfc9f19cc6e8393b1dbba4161e38b560ea0dc438837377e6f869a7b42056715
+    digest: 5f16f85b48163f9bfb9a4418871443040704ead37e6ea0f038550d84cfd4fef4
     name: exposecontroller
     urls:
     - https://olli-ai.github.io/helm-charts/exposecontroller-1.0.2.tgz
     version: 1.0.2
   - apiVersion: v1
     appVersion: v1.0.1
-    created: "2021-01-25T10:59:56.559761894Z"
+    created: "2021-01-26T10:27:58.003020379Z"
     description: Controller for automatically exposing services
     digest: ab97c32f52f5e8776c7e3811e445e8639804bbb0d52cb2426580b2a2976071ab
     name: exposecontroller
@@ -21,7 +21,7 @@ entries:
     version: 1.0.1
   - apiVersion: v1
     appVersion: v1.0.0
-    created: "2021-01-25T10:59:56.559366989Z"
+    created: "2021-01-26T10:27:58.002649878Z"
     description: Controller for automatically exposing services
     digest: 5b098274d429f99d63a19379cb7cdeefeac6d90ca9e672d73f27723324456c78
     name: exposecontroller
@@ -30,7 +30,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: v0.0.5
-    created: "2021-01-25T10:59:56.558898582Z"
+    created: "2021-01-26T10:27:58.002293977Z"
     description: Controller for automatically exposing services
     digest: 683a95c1728c6843aaabd2db12cc24dc05b42b637051822d34418ab72dd2dcdf
     name: exposecontroller
@@ -39,7 +39,7 @@ entries:
     version: 0.0.5
   - apiVersion: v1
     appVersion: v0.0.4
-    created: "2021-01-25T10:59:56.558454776Z"
+    created: "2021-01-26T10:27:58.001868776Z"
     description: Controller for automatically exposing services
     digest: e5bf9bd8b8fcd1508ae204cab9b43e25e54f98dc06f486730c03825227684638
     name: exposecontroller
@@ -48,7 +48,7 @@ entries:
     version: 0.0.4
   - apiVersion: v1
     appVersion: v0.0.3
-    created: "2021-01-25T10:59:56.55803017Z"
+    created: "2021-01-26T10:27:58.001505075Z"
     description: Controller for automatically exposing services
     digest: a36cfaff9b8af222a51570afcbd6ad93145f4754f9ce53c41446f20270c0dcee
     name: exposecontroller
@@ -57,7 +57,7 @@ entries:
     version: 0.0.3
   - apiVersion: v1
     appVersion: v0.0.2
-    created: "2021-01-25T10:59:56.557586464Z"
+    created: "2021-01-26T10:27:58.001114474Z"
     description: Controller for automatically exposing services
     digest: f93e4ace242578cac16254e471abcdb4ceeef21a8d5978896f27630cf7e35bc1
     name: exposecontroller
@@ -66,11 +66,11 @@ entries:
     version: 0.0.2
   glusterfs-client-provisioner:
   - apiVersion: v1
-    created: "2021-01-25T10:59:56.563672148Z"
+    created: "2021-01-26T10:27:58.005833885Z"
     description: glusterfs-client-provisioner is an automatic provisioner that used
       your *already configured* GlusterFS cluster, automatically creating Persistent
       Volumes as subdirectories of the cluster.
-    digest: b5a6a09e6e1c03b8449d56650417555c94c2dd17510082e0f9e8e084bb817b89
+    digest: c597eeec7b8d6e70097966c396236a2accd42dcab0535b5ef658b994ba938c31
     home: https://github.com/olli-ai/glusterfs-subdir-external-provisioner
     keywords:
     - glusterfs
@@ -89,7 +89,7 @@ entries:
     - https://olli-ai.github.io/helm-charts/glusterfs-client-provisioner-1.0.0.tgz
     version: 1.0.0
   - apiVersion: v1
-    created: "2021-01-25T10:59:56.562545633Z"
+    created: "2021-01-26T10:27:58.004850583Z"
     description: glusterfs-client-provisioner is an automatic provisioner that used
       your *already configured* GlusterFS cluster, automatically creating Persistent
       Volumes as subdirectories of the cluster.
@@ -112,7 +112,7 @@ entries:
     - https://olli-ai.github.io/helm-charts/glusterfs-client-provisioner-0.0.12.tgz
     version: 0.0.12
   - apiVersion: v1
-    created: "2021-01-25T10:59:56.561856623Z"
+    created: "2021-01-26T10:27:58.004276882Z"
     description: glusterfs-client-provisioner is an automatic provisioner that used
       your *already configured* GlusterFS cluster, automatically creating Persistent
       Volumes as subdirectories of the cluster.
@@ -122,7 +122,7 @@ entries:
     - https://olli-ai.github.io/helm-charts/glusterfs-client-provisioner-0.0.11.tgz
     version: 0.0.11
   - apiVersion: v1
-    created: "2021-01-25T10:59:56.560755008Z"
+    created: "2021-01-26T10:27:58.003813981Z"
     description: glusterfs-client-provisioner is an automatic provisioner that used
       your *already configured* GlusterFS cluster, automatically creating Persistent
       Volumes as subdirectories of the cluster.
@@ -132,7 +132,7 @@ entries:
     - https://olli-ai.github.io/helm-charts/glusterfs-client-provisioner-0.0.10.tgz
     version: 0.0.10
   - apiVersion: v1
-    created: "2021-01-25T10:59:56.562999139Z"
+    created: "2021-01-26T10:27:58.005267984Z"
     description: glusterfs-client-provisioner is an automatic provisioner that used
       your *already configured* GlusterFS cluster, automatically creating Persistent
       Volumes as subdirectories of the cluster.
@@ -144,10 +144,10 @@ entries:
   k8s-replicator:
   - apiVersion: v1
     appVersion: v1.1.3
-    created: "2021-01-25T10:59:56.577232835Z"
+    created: "2021-01-26T10:27:58.007841089Z"
     description: Controller for replicating secrets and configMaps across namespaces,
       and help with randomly generated passwords deployed with helm
-    digest: e8b30c037b98d1320bade51741323c6a0e12b66400953dad0884a2316fa98e4f
+    digest: ea430e79c75aa3b94b59e7cf95879750c69828b91411ce40d4e12e928f66a5dc
     home: https://github.com/olli-ai/k8s-replicator
     keywords:
     - replicate
@@ -167,7 +167,7 @@ entries:
     version: 1.1.3
   - apiVersion: v1
     appVersion: v1.1.2
-    created: "2021-01-25T10:59:56.576269922Z"
+    created: "2021-01-26T10:27:58.007271388Z"
     description: Controller for replicating secrets and configMaps across namespaces,
       and help with randomly generated passwords deployed with helm
     digest: e758d0701e36863424fb8617509b9a6c790d805e69b71735d38a223fdf87a33e
@@ -190,7 +190,7 @@ entries:
     version: 1.1.2
   - apiVersion: v1
     appVersion: v1.1.1
-    created: "2021-01-25T10:59:56.566177683Z"
+    created: "2021-01-26T10:27:58.006841487Z"
     description: Controller for replicating secrets and configMaps across namespaces,
       and help with randomly generated passwords deployed with helm
     digest: 5c3069283cd8e17bae9f14f7f404ba54d573b1fca39fa1b4e024865d44e58cfe
@@ -200,7 +200,7 @@ entries:
     version: 1.1.1
   - apiVersion: v1
     appVersion: v1.0.1
-    created: "2021-01-25T10:59:56.565026767Z"
+    created: "2021-01-26T10:27:58.006459486Z"
     description: Controller for replicating secrets and configMaps across namespaces,
       and help with randomly generated passwords deployed with helm
     digest: aa50ca4659d9d65348f130903cb87ca62cb85982daa0e2edfd45db488a115796
@@ -210,7 +210,7 @@ entries:
     version: 1.0.1
   - apiVersion: v1
     appVersion: v1.0.0
-    created: "2021-01-25T10:59:56.564026053Z"
+    created: "2021-01-26T10:27:58.006137885Z"
     description: Controller for replicating secrets and configMaps across namespaces,
       and help with randomly generated passwords deployed with helm
     digest: ce1121af31f28eb4de96fadc514354abd7aad717d226b50814f47bb2a0080767
@@ -218,4 +218,4 @@ entries:
     urls:
     - https://olli-ai.github.io/helm-charts/k8s-replicator-1.0.0.tgz
     version: 1.0.0
-generated: "2021-01-25T10:59:56.556958856Z"
+generated: "2021-01-26T10:27:58.000588173Z"
