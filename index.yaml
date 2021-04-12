@@ -3,10 +3,10 @@ entries:
   exposecontroller:
   - apiVersion: v1
     appVersion: v1.0.4
-    created: "2021-04-12T03:49:53.388602616Z"
+    created: "2021-04-12T04:20:49.164782007Z"
     description: Controller for automatically exposing services. A more stable version
       of Jenkins-X exposecontroller.
-    digest: b70b596c93ba4b2a6fd656aab6a47e2819da3ec242a808341e77e39914322e8c
+    digest: f66c71bc6a1ae674fd166d7f813b678508e06328b430e5b4546386df169d54d0
     home: https://github.com/olli-ai/exposecontroller
     keywords:
     - jenkins-x
@@ -107,6 +107,30 @@ entries:
     - https://olli-ai.github.io/helm-charts/exposecontroller-0.0.2.tgz
     version: 0.0.2
   glusterfs-client-provisioner:
+  - apiVersion: v1
+    appVersion: v1.0.2
+    created: "2021-04-12T04:20:49.165495181Z"
+    description: glusterfs-client-provisioner is an automatic provisioner that used
+      your *already configured* GlusterFS cluster, automatically creating Persistent
+      Volumes as subdirectories of the cluster.
+    digest: 20144261fa64458ecb99dcb8ad39884fe53ab9a13f57c8f8263724a830915b8e
+    home: https://github.com/olli-ai/glusterfs-subdir-external-provisioner
+    keywords:
+    - glusterfs
+    - storage
+    - persistent
+    - volume
+    - persistentvolume
+    - provisioner
+    maintainers:
+    - email: aure@olli-ai.com
+      name: aure-olli
+    name: glusterfs-client-provisioner
+    sources:
+    - https://github.com/olli-ai/glusterfs-subdir-external-provisioner
+    urls:
+    - https://olli-ai.github.io/helm-charts/glusterfs-client-provisioner-1.0.2.tgz
+    version: 1.0.2
   - apiVersion: v1
     appVersion: v1.0.2-b
     created: "2021-04-12T03:49:53.389106413Z"
@@ -235,10 +259,10 @@ entries:
   k8s-replicator:
   - apiVersion: v1
     appVersion: v1.2.1
-    created: "2021-04-12T03:49:53.389637611Z"
+    created: "2021-04-12T04:20:49.166129047Z"
     description: Controller for replicating secrets and configMaps across namespaces,
       and help with randomly generated passwords deployed with helm
-    digest: 251991b461da146acfa608f7b729deacb9731d5119be6f8d446581bf95de56a5
+    digest: 4d8af64ca247885392d647bf756435f038c2154115df6335777897be12578885
     home: https://github.com/olli-ai/k8s-replicator
     keywords:
     - replicate
@@ -378,4 +402,4 @@ entries:
     urls:
     - https://olli-ai.github.io/helm-charts/k8s-replicator-1.0.0.tgz
     version: 1.0.0
-generated: "2021-04-12T03:49:53.38790242Z"
+generated: "2021-04-12T04:20:49.163866111Z"
