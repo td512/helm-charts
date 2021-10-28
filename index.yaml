@@ -3,10 +3,10 @@ entries:
   exposecontroller:
   - apiVersion: v1
     appVersion: v1.0.5
-    created: "2021-05-27T10:17:54.220033075Z"
+    created: "2021-10-28T03:45:22.024759974Z"
     description: Controller for automatically exposing services. A more stable version
       of Jenkins-X exposecontroller.
-    digest: d437bf1e02e24f232eebf657651d8f5880fe926e6c8e01e5d30b979f10a2842a
+    digest: 039b9d40a1bacd4d6f3d9c67f59459076c602be6189c2c07cb4bbbbe00b67df6
     home: https://github.com/olli-ai/exposecontroller
     keywords:
     - jenkins-x
@@ -130,11 +130,11 @@ entries:
   glusterfs-client-provisioner:
   - apiVersion: v1
     appVersion: v1.0.2
-    created: "2021-05-27T10:17:54.221292483Z"
+    created: "2021-10-28T03:45:22.02566385Z"
     description: glusterfs-client-provisioner is an automatic provisioner that used
       your *already configured* GlusterFS cluster, automatically creating Persistent
       Volumes as subdirectories of the cluster.
-    digest: bc0bcf275c3f78907b16442076f8584b59c87d530e8f26b096bb646a006e3ae4
+    digest: baee3da15ebdcec5ae65e3734010fc937363fd368334b255281c17d96beb4171
     home: https://github.com/olli-ai/glusterfs-subdir-external-provisioner
     keywords:
     - glusterfs
@@ -278,6 +278,29 @@ entries:
     - https://olli-ai.github.io/helm-charts/glusterfs-client-provisioner-0.0.5.tgz
     version: 0.0.5
   k8s-replicator:
+  - apiVersion: v1
+    appVersion: v1.3.0
+    created: "2021-10-28T03:45:22.026400711Z"
+    description: Controller for replicating secrets and configMaps across namespaces,
+      and help with randomly generated passwords deployed with helm
+    digest: 96e9e8d2ce55be873be560c351ab63f8b77406e9922cea46404a066b975756ac
+    home: https://github.com/olli-ai/k8s-replicator
+    keywords:
+    - replicate
+    - replicator
+    - secret
+    - configmap
+    - random
+    - password
+    maintainers:
+    - email: aure@olli-ai.com
+      name: aure-olli
+    name: k8s-replicator
+    sources:
+    - https://github.com/olli-ai/k8s-replicator
+    urls:
+    - https://olli-ai.github.io/helm-charts/k8s-replicator-1.3.0.tgz
+    version: 1.3.0
   - apiVersion: v1
     appVersion: v1.2.1
     created: "2021-05-27T10:17:54.222579092Z"
@@ -423,4 +446,4 @@ entries:
     urls:
     - https://olli-ai.github.io/helm-charts/k8s-replicator-1.0.0.tgz
     version: 1.0.0
-generated: "2021-05-27T10:17:54.21781496Z"
+generated: "2021-10-28T03:45:22.02374739Z"
