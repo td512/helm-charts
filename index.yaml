@@ -3,10 +3,10 @@ entries:
   exposecontroller:
   - apiVersion: v1
     appVersion: v1.0.5
-    created: "2021-12-21T10:02:49.064387305Z"
+    created: "2021-12-22T10:02:58.969520229Z"
     description: Controller for automatically exposing services. A more stable version
       of Jenkins-X exposecontroller.
-    digest: e18312dd78f26582d128cd332c49f6e5bbfd7bcccf6048e0f13420b29616baf9
+    digest: 08adcd92c3a40e9e94c6e3043ba76181ec07b433d59f43cf87352fe4e16d5a5f
     home: https://github.com/olli-ai/exposecontroller
     keywords:
     - jenkins-x
@@ -130,11 +130,11 @@ entries:
   glusterfs-client-provisioner:
   - apiVersion: v1
     appVersion: v1.0.2
-    created: "2021-12-21T10:02:49.065059053Z"
+    created: "2021-12-22T10:02:58.970124536Z"
     description: glusterfs-client-provisioner is an automatic provisioner that used
       your *already configured* GlusterFS cluster, automatically creating Persistent
       Volumes as subdirectories of the cluster.
-    digest: ccdd8258207717cb059aec8324981004f04083ded1910b40f62d97cfd7009b49
+    digest: fdbd9156ead0ada5f6bc177eab599ec0674ab4b2b3b8f304cc72f509424443ac
     home: https://github.com/olli-ai/glusterfs-subdir-external-provisioner
     keywords:
     - glusterfs
@@ -280,10 +280,10 @@ entries:
   k8s-replicator:
   - apiVersion: v1
     appVersion: v1.3.0
-    created: "2021-12-21T10:02:49.065829707Z"
+    created: "2021-12-22T10:02:58.970759643Z"
     description: Controller for replicating secrets and configMaps across namespaces,
       and help with randomly generated passwords deployed with helm
-    digest: 0cc76b0ba3cc462bf18191df8ff0b3bd6b3be720b2607bf769c4f93a4823400d
+    digest: 8e3c93292308688e5fc02eca315277cfca0d3b48b5a9bd4ab5adbf074343bb34
     home: https://github.com/olli-ai/k8s-replicator
     keywords:
     - replicate
@@ -446,4 +446,4 @@ entries:
     urls:
     - https://olli-ai.github.io/helm-charts/k8s-replicator-1.0.0.tgz
     version: 1.0.0
-generated: "2021-12-21T10:02:49.063514744Z"
+generated: "2021-12-22T10:02:58.968769621Z"
