@@ -6,7 +6,7 @@ replicaCount: 1
 strategyType: Recreate
 
 image:
-  repository: olliai/glusterfs-client-provisioner
+  repository: td512/glusterfs-client-provisioner
   tag: # same as chart version
   pullPolicy: IfNotPresent
 
@@ -29,7 +29,7 @@ storageClass:
 
   # Set a StorageClass name
   # Ignored if storageClass.create is false
-  name: glusterfs-client
+  name: storage
 
   # Allow volume to be expanded dynamically
   allowVolumeExpansion: true
