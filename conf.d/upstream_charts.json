@@ -1,13 +1,5 @@
 [{
-	"repository": "olli-ai/k8s-replicator",
-	"chartPath": "deploy/helm-chart/k8s-replicator",
-	"chartName": "k8s-replicator"
-}, {
-	"repository": "olli-ai/exposecontroller",
-	"chartPath": "deploy/helm-chart/exposecontroller",
-	"chartName": "exposecontroller"
-}, {
-	"repository": "olli-ai/glusterfs-subdir-external-provisioner",
+	"repository": "td512/glusterfs-subdir-external-provisioner",
 	"chartPath": "deploy/helm-chart/glusterfs-client-provisioner",
 	"chartName": "glusterfs-client-provisioner"
 }]
